@@ -94,4 +94,4 @@ if __name__ == "__main__":
 
 1. 需要安装python
 
-2. 建议使用微软的 Visual Studio Code 编辑器。使用control键加~键可以一键调出命令行终端。在终端里执行`  python .\helper.py `这种命令。
+2. 建议使用微软的 Visual Studio Code 编辑器。使用control键加~键可以一键调出/调回命令行终端。可以在vscode的命令行终端里执行`  python .\helper.py `这种命令。
