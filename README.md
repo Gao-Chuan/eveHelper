@@ -76,6 +76,7 @@ if __name__ == "__main__":
 ## Usage
 
 1. edit the ship name and the number:
+
   For example, if you want to build 5 Ishtar: 
   ```
   if __name__ == "__main__":
