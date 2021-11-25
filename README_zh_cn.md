@@ -99,5 +99,6 @@ if __name__ == "__main__":
 2. 建议使用微软的 Visual Studio Code 编辑器。使用control键加~键可以一键调出/调回命令行终端。可以在vscode的命令行终端里执行`  python .\helper.py `这种命令。
 
 示例截图：
+
 ![image](https://user-images.githubusercontent.com/22027527/143503246-15f839d7-d241-4fb8-bc5d-a3689e5179c3.png)
 
