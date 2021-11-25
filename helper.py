@@ -210,46 +210,46 @@ class ship(object):
     Usage example:
     Supported ships:
         Ishtar
-        Paladin
-        Apocalypse
+        Paladin -----> under 10% BPO
+        Apocalypse -----> under 10% BPO & 4.5% Sotiyo
         Prospect
 '''
 if __name__ == "__main__":
-    shipname = "Apocalypse"
+    shipname = "Ishtar"
     t = ship(shipname, 5)
     
-    mm = t.get_moon_material()
-    fb = t.get_fuel_block()
     other_str = t.ship_list[shipname]['mineral'] + '\n\n' + t.ship_list[shipname]['items'] + '\n'
     # Moon material
+    mm = t.get_moon_material()
     mm_str = ""
     for k in mm:
         mm_str += k + ' ' + str(mm[k]) + '\n'
     # Fuel blocks
+    fb = t.get_fuel_block()
     fb_str = ""
     for k in fb:
         fb_str +=  k + ' ' + str(fb[k]) + '\n'
 
-    pm = t.get_planet_material()
     # Planet material
+    pm = t.get_planet_material()
     pm_str = ""
     for k in pm:
         pm_str += k + ' ' + str(pm[k]) + '\n'
 
-    im = t.get_intermediate()
     # Low reaction
+    im = t.get_intermediate()
     im_str = ""
     for k in im:
         im_str += k + " " + str(im[k]) + '\n'
 
-    cp = t.get_composite()
     # High reaction
+    cp = t.get_composite()
     cp_str = ""
     for k in cp:
         cp_str += k + ' ' + str(cp[k]) + '\n'
     
-    cpn = t.get_components()
     # Conponents
+    cpn = t.get_components()
     cpn_str = ""
     for k in cpn:
         cpn_str += k + ' ' + str(cpn[k]) + '\n'
