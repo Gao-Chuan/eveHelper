@@ -100,5 +100,6 @@ if __name__ == "__main__":
 
 示例截图：
 
-![image](https://user-images.githubusercontent.com/22027527/143503246-15f839d7-d241-4fb8-bc5d-a3689e5179c3.png)
+![image](https://user-images.githubusercontent.com/22027527/143503350-256c11aa-e9aa-416c-b421-2d314aa6f5ed.png)
+
 
