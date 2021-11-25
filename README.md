@@ -65,9 +65,13 @@ if __name__ == "__main__":
     for k in cpn:
         cpn_str += k + ' ' + str(cpn[k]) + '\n'
 
+    # print high reaction
     print(cp_str)
+    # print fuel blocks
     print(fb_str)
+    # print items & minerals
     print(other_str)
+    # print planet materials
     print(pm_str)
 ```
 
