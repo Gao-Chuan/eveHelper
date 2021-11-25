@@ -23,7 +23,7 @@ Currently supported ships' name:
 
 Extract the 'moon material', 'low reaction material', 'high reaction material', 'mineral', 'planet material', 'Fuel blocks' comsumed by given ship's name.
 
-Example:
+Example(the code is included in helper.py):
 
 ```
 
@@ -79,7 +79,7 @@ if __name__ == "__main__":
 
 1. edit the ship name and the number:
 
-  For example, if you want to build 5 Ishtar: 
+  For example, if you want to build 5 Ishtar, edit the helper.py like this: 
   ```
   if __name__ == "__main__":
     shipname = "Ishtar"
