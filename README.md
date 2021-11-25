@@ -1,6 +1,10 @@
 # eveHelper
 eve online T2 industry helper.
 
+In-game donations are very welcome. If you would like to donate, the receiving account is: 
+
+        phan ii
+
 ## Notice
 
 Currently supported ships' name:
