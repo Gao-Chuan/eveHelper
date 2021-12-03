@@ -66,6 +66,8 @@ class component(object):
             component_list = component_amarr_list.copy()
         elif name in component_T1_list.keys():
             component_list = component_T1_list.copy()
+        elif name in component_caldari_list.keys():
+            component_list = component_caldari_list.copy()
         assert component_list != None, "Invalid component name {}".format(name)
 
         self.name = name
@@ -210,12 +212,13 @@ class ship(object):
     Usage example:
     Supported ships:
         Ishtar
-        Paladin -----> under 10% BPO
+        Paladin -----> under 0% BPO
+        Golem ------> under 5% BPO
         Apocalypse -----> under 10% BPO & 4.5% Sotiyo
         Prospect
 '''
 if __name__ == "__main__":
-    shipname = "Ishtar"
+    shipname = "Golem"
     t = ship(shipname, 5)
     
     other_str = t.ship_list[shipname]['mineral'] + '\n\n' + t.ship_list[shipname]['items'] + '\n'
@@ -254,7 +257,7 @@ if __name__ == "__main__":
     for k in cpn:
         cpn_str += k + ' ' + str(cpn[k]) + '\n'
 
-    print(cp_str)
+    print(mm_str)
     print(fb_str)
     print(other_str)
     print(pm_str)

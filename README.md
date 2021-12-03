@@ -16,8 +16,12 @@ Currently supported ships' name:
         Ishtar
         
         Paladin
+
+        Golem
         
         Apocalypse
+
+        Raven
         
         Prospect
 

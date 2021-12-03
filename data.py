@@ -57,6 +57,16 @@ composite_list = {
 	"Tungsten Carbide":        "output 10000\nRolled Tungsten Alloy 100\nSulfuric Acid 100\nNitrogen Fuel Block 5",
 }
 
+component_caldari_list = {
+	"Gravimetric Sensor Cluster": 	"output 1\nTitanium Carbide 20\nNanotransistors 1\nHypersynaptic Fibers 2",
+	"Graviton Reactor Unit": 		"output 1\nTitanium Carbide 9\nFermionic Condensates 2",
+	"Magpulse Thruster": 			"output 1\nTitanium Carbide 12\nPhenolic Composites 3\nFerrogel 1",
+	"Quantum Microprocessor":		"output 1\nTitanium Carbide 16\nPhenolic Composites 6\nNanotransistors 2\nNonlinear Metamaterials 2",
+	"Scalar Capacitor Unit": 		"output 1\nTitanium Carbide 25\nFullerides 10\nNanotransistors 1\nNonlinear Metamaterials 2",
+	"Sustained Shield Emitter": 	"output 1\nTitanium Carbide 20\nSylramic Fibers 9\nFerrogel 1",
+	"Titanium Diborite Armor Plate": "output 1\nTitanium Carbide 40\nSylramic Fibers 10",
+}
+
 component_gallent_list = {
     "Crystalline Carbonide Armor Plate": "output 1\nCrystalline Carbonide 44\nSylramic Fibers 11",
 	"Fusion Reactor Unit":               "output 1\nCrystalline Carbonide 9\nFermionic Condensates 2",
@@ -100,6 +110,13 @@ t2_ship_list = {
                     "Planetary material": "Construction Blocks 450",
                     "items":"Apocalypse 1\nR.A.M.- Starship Tech 30"
 				},
+				"Golem":
+				{
+					"componentList": "Magpulse Thruster 357\nGravimetric Sensor Cluster 820\nQuantum Microprocessor 5700\nTitanium Diborite Armor Plate 35625\nGraviton Reactor Unit 214\nScalar Capacitor Unit 2850\nSustained Shield Emitter 3606",
+					"mineral":"Morphite 927",
+					"Planetary material": "Construction Blocks 428",
+                    "items":"Raven 1\nR.A.M.- Starship Tech 30"
+				},
 				"Prospect":
 				{
 					"componentList": "Ion Thruster 18\nMagnetometric Sensor Cluster 15\nPhoton Microprocessor 170\nCrystalline Carbonide Armor Plate 200\nFusion Reactor Unit 3\nOscillator Capacitor Unit 42\nPulse Shield Emitter 22",
@@ -111,6 +128,13 @@ t2_ship_list = {
 
 battle_ship_list = {
 				"Apocalypse":
+				{
+					"componentList":"Auto-Integrity Preservation Seal 180\nCore Temperature Regulator 1\nLife Support Backup Unit 90",
+					"mineral": "Tritanium 7200000\nPyerite 3600000\nMexallon 540000\nIsogen 360000\nNocxium 10800\nZydrine 5400\nMegacyte 2700",
+					"Planetary material": "",
+					"items": ""
+				},
+				"Raven":
 				{
 					"componentList":"Auto-Integrity Preservation Seal 180\nCore Temperature Regulator 1\nLife Support Backup Unit 90",
 					"mineral": "Tritanium 7200000\nPyerite 3600000\nMexallon 540000\nIsogen 360000\nNocxium 10800\nZydrine 5400\nMegacyte 2700",

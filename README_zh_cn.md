@@ -14,8 +14,12 @@ eve online T2 制造商助手.
         Ishtar （伊什塔级）
         
         Paladin （帕拉丁级）
+
+        Golem  （魔像级）
         
         Apocalypse （灾难级）
+
+        Raven （乌鸦级）
         
         Prospect（掘金者级）
 
