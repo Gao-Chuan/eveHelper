@@ -10,6 +10,8 @@ moon_material_list = ["Atmospheric Gases", "Cadmium", "Caesium", "Chromium", "Co
 
 planetary_material_list = ["Construction Blocks", "Water", "Oxygen", "Chiral Structures", "Bacteria", "Proteins"]
 
+mineral_list = ["Tritanium", "Pyerite", "Mexallon", "Isogen", "Nocxium", "Zydrine", "Megacyte", "Morphite"]
+
 intermediate_list = {
 	"Caesarium Cadmide":     "output 200\nCadmium 100\nCaesium 100\nOxygen Fuel Block 5",
 	"Carbon Fiber":          "output 200\nHydrocarbons 100\nEvaporite Deposits 100\nHydrogen Fuel Block 5",
@@ -57,6 +59,17 @@ composite_list = {
 	"Tungsten Carbide":        "output 10000\nRolled Tungsten Alloy 100\nSulfuric Acid 100\nNitrogen Fuel Block 5",
 }
 
+component_minmatar_list = {
+	"Deflection Shield Emitter":				"output 1\nFernite Carbide 22\nSylramic Fibers 9\nFerrogel 1",
+	"Electrolytic Capacitor Unit":				"output 1\nFernite Carbide 27\nFullerides 11\nNanotransistors 1\nPlasmonic Metamaterials 2",
+	"Fernite Carbide Composite Armor Plate":	"output 1\nFernite Carbide 44\nSylramic Fibers 11",
+	"Ladar Sensor Cluster":						"output 1\nFernite Carbide 22\nNanotransistors 1\nHypersynaptic Fibers 2",
+	"Nanomechanical Microprocessor":			"output 1\nFernite Carbide 17\nPhenolic Composites 6\nNanotransistors 2\nPlasmonic Metamaterials 2",
+	"Nuclear Reactor Unit":						"output 1\nFernite Carbide 9\nFermionic Condensates 2",
+	"Plasma Thruster":							"output 1\nFernite Carbide 13\nPhenolic Composites 3\nFerrogel 1",
+	"Thermonuclear Trigger Unit":				"output 1\nFernite Carbide 31\nFullerides 11\nHypersynaptic Fibers 1"
+}
+
 component_caldari_list = {
 	"Gravimetric Sensor Cluster": 	"output 1\nTitanium Carbide 20\nNanotransistors 1\nHypersynaptic Fibers 2",
 	"Graviton Reactor Unit": 		"output 1\nTitanium Carbide 9\nFermionic Condensates 2",
@@ -88,6 +101,8 @@ component_amarr_list = {
 	"Tesseract Capacitor Unit": 		"output 1\nTungsten Carbide 25\nFullerides 10\nNanotransistors 1\nTerahertz Metamaterials 2",
 	"Linear Shield Emitter": 			"output 1\nTungsten Carbide 20\nSylramic Fibers 9\nFerrogel 1"
 }
+
+t2_component_list = dict(component_amarr_list, **component_caldari_list, **component_gallent_list, **component_minmatar_list)
 
 component_T1_list = {
 	"Auto-Integrity Preservation Seal": "output 1\nReinforced Carbon Fiber 10\nBacteria 72\nProteins 36",
@@ -124,7 +139,28 @@ t2_ship_list = {
                     "Planetary material": "Construction Blocks 20",
                     "items":"Venture 1\nR.A.M.- Starship Tech 4"
 				},
-            }
+				"Vargur":
+				{
+					"componentList": "Plasma Thruster 375\nLadar Sensor Cluster 863\nNanomechanical Microprocessor 6000\nFernite Carbide Composite Armor Plate 37500\nNuclear Reactor Unit 225\nElectrolytic Capacitor Unit 3000\nDeflection Shield Emitter 3795",
+					"Planetary material": "Construction Blocks 450",
+					"mineral":"Morphite 975",
+					"items":"Tempest 1\nR.A.M.- Starship Tech 30"
+				},
+				"Vagabond":
+				{
+					"componentList": "Plasma Thruster 75\nLadar Sensor Cluster 398\nNanomechanical Microprocessor 1350\nFernite Carbide Composite Armor Plate 5625\nNuclear Reactor Unit 38\nElectrolytic Capacitor Unit 450\nDeflection Shield Emitter 450",
+					"mineral":"Morphite 150",
+					"Planetary material": "Construction Blocks 150",
+					"items":"Stabber 1\nR.A.M.- Starship Tech 18"
+				},      
+				"Huginn":
+				{
+					"componentList": "Plasma Thruster 58\nLadar Sensor Cluster 476\nNanomechanical Microprocessor 1728\nFernite Carbide Composite Armor Plate 3600\nNuclear Reactor Unit 29\nElectrolytic Capacitor Unit 360\nDeflection Shield Emitter 288",
+					"Planetary material": "Morphite 144",
+					"mineral":"Construction Blocks 72",
+					"items":"Bellicose 1\nR.A.M.- Starship Tech 18"
+				}
+			}
 
 battle_ship_list = {
 				"Apocalypse":

@@ -68,6 +68,8 @@ class component(object):
             component_list = component_T1_list.copy()
         elif name in component_caldari_list.keys():
             component_list = component_caldari_list.copy()
+        elif name in component_minmatar_list.keys():
+            component_list = component_minmatar_list.copy()
         assert component_list != None, "Invalid component name {}".format(name)
 
         self.name = name
@@ -216,10 +218,12 @@ class ship(object):
         Golem ------> under 5% BPO
         Apocalypse -----> under 10% BPO & 4.5% Sotiyo
         Prospect
+        Vargur
+        Vagabond
 '''
 if __name__ == "__main__":
-    shipname = "Golem"
-    t = ship(shipname, 5)
+    shipname = "Vagabond"
+    t = ship(shipname, 100)
     
     other_str = t.ship_list[shipname]['mineral'] + '\n\n' + t.ship_list[shipname]['items'] + '\n'
     # Moon material
