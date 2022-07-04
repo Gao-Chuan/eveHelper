@@ -13,88 +13,72 @@ The development has not finished yet. Currently this project does not consider t
 
 Currently supported ships' name:
 
-        Ishtar
-        
-        Paladin
-
-        Golem
-        
-        Apocalypse
-
-        Raven
-        
-        Prospect
+        Check t2_ship_list in ./data.py
 
 ## Functionality
 
 Extract the 'moon material', 'low reaction material', 'high reaction material', 'mineral', 'planet material', 'Fuel blocks' comsumed by given ship's name.
+
+Set up your current stock, and output what else materials you need to buy.
 
 Example(the code is included in helper.py):
 
 ```
 
 if __name__ == "__main__":
-    shipname = "Ishtar"
-    t = ship(shipname, 5)
-    
-    other_str = t.ship_list[shipname]['mineral'] + '\n\n' + t.ship_list[shipname]['items'] + '\n'
-    # Moon material
-    mm = t.get_moon_material()
-    mm_str = ""
-    for k in mm:
-        mm_str += k + ' ' + str(mm[k]) + '\n'
-    # Fuel blocks
-    fb = t.get_fuel_block()
-    fb_str = ""
-    for k in fb:
-        fb_str +=  k + ' ' + str(fb[k]) + '\n'
+    shipname = "Huginn"
+    ship = T2ship(shipname, 80)
 
-    # Planet material
-    pm = t.get_planet_material()
-    pm_str = ""
-    for k in pm:
-        pm_str += k + ' ' + str(pm[k]) + '\n'
+    stock = '''Atmospheric Gases	403056
+Cadmium	37781
+Caesium	13862
+Chromium	431567
+Cobalt	29297
+Dysprosium	12888
+Evaporite Deposits	547754
+Hafnium	6789
+Hydrocarbons	1027150
+Mercury	7512
+Neodymium	2413
+Platinum	815728
+Promethium	4849
+Scandium	2421
+Silicates	803537
+Technetium	152965
+Thulium	1713
+Titanium	7455
+Tungsten	19400
+Vanadium	303840
+Helium Fuel Block	20154
+Hydrogen Fuel Block	29045
+Nitrogen Fuel Block	22868
+Oxygen Fuel Block	23196
+Morphite	34801
+Construction Blocks	11798
+R.A.M.- Starship Tech	9378'''
+    ship.set_stock(stock)
+    ship.get("moon_material")
+    ship.get("fuel_block")
+    ship.get("mineral")
+    ship.get("planet_material")
+    ship.get("items")
 
-    # Low reaction
-    im = t.get_intermediate()
-    im_str = ""
-    for k in im:
-        im_str += k + " " + str(im[k]) + '\n'
-
-    # High reaction
-    cp = t.get_composite()
-    cp_str = ""
-    for k in cp:
-        cp_str += k + ' ' + str(cp[k]) + '\n'
-    
-    # Conponents
-    cpn = t.get_components()
-    cpn_str = ""
-    for k in cpn:
-        cpn_str += k + ' ' + str(cpn[k]) + '\n'
-
-    # print high reaction, fuel blocks, items & minerals
-    #       and planet materials
-    print(cp_str)
-    print(fb_str)
-    print(other_str)
-    print(pm_str)
 ```
 
 ## Usage
 
-1. edit the ship name and the number:
+1. edit the ship name and the number in ./ships.py:
 
-  For example, if you want to build 5 Ishtar, edit the helper.py like this: 
+  For example, if you want to build 80 Huginn, edit the helper.py like this: 
   ```
   if __name__ == "__main__":
-    shipname = "Ishtar"
-    t = ship(shipname, 5)
+    shipname = "Huginn"
+    ship = T2ship(shipname, 80)
   ```
+
 2. Run the script
   ```
-  python .\helper.py
+  python .\ships.py
   ```
-![image](https://user-images.githubusercontent.com/22027527/143503378-0bb1b2e4-5e01-4065-b7b2-38f0f819d90b.png)
 
 

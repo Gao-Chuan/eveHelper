@@ -96,6 +96,8 @@ class T2ship(object):
                 self.planet_material[name] -= num
             elif name in self.fuel_block:
                 self.fuel_block[name] -= num
+            elif name in self.items:
+                self.items[name] -= num
             
         
     def get(self, key):
@@ -164,7 +166,10 @@ Vanadium	303840
 Helium Fuel Block	20154
 Hydrogen Fuel Block	29045
 Nitrogen Fuel Block	22868
-Oxygen Fuel Block	23196'''
+Oxygen Fuel Block	23196
+Morphite	34801
+Construction Blocks	11798
+R.A.M.- Starship Tech	9378'''
     ship.set_stock(stock)
     ship.get("moon_material")
     ship.get("fuel_block")
