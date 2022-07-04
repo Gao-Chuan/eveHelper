@@ -11,9 +11,9 @@ In-game donations are very welcome. If you would like to donate, the receiving a
 
 The development has not finished yet. Currently this project does not consider the material efficiency. Plase double check the coresponding data with your own blueprint in [data.py](data.py)
 
-Currently supported ships' name:
+Currently supported ships:
 
-        Check t2_ship_list in ./data.py
+Check t2_ship_list in ./data.py
 
 ## Functionality
 
