@@ -19,7 +19,7 @@ Currently supported ships' name:
 
 Extract the 'moon material', 'low reaction material', 'high reaction material', 'mineral', 'planet material', 'Fuel blocks' comsumed by given ship's name.
 
-Set up your current stock, and output what else materials you need to buy.
+Set up your current stock, and output what else materials you need to buy. Use the api ship.get("what you want to see")
 
 Example(the code is included in helper.py):
 
