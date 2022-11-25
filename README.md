@@ -19,7 +19,9 @@ Check t2_ship_list in ./data.py
 
 Output the number of 'moon material', 'low reaction material', 'high reaction material', 'mineral', 'planet material', 'Fuel blocks' comsumed by given ship's name and craft number.
 
-Set up your current stock, and output what else materials you need to buy. Use the api ship.get("what you want to see")
+Set up your current stock, and output what else materials you need to buy. 
+
+Use the api ship.get("what you want to see")
 
 Example(the code is included in helper.py):
 
