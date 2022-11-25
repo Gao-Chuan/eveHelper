@@ -222,8 +222,8 @@ class ship(object):
         Vagabond
 '''
 if __name__ == "__main__":
-    shipname = "Vagabond"
-    t = ship(shipname, 100)
+    shipname = "Apocalypse"
+    t = ship(shipname, 7)
     
     other_str = t.ship_list[shipname]['mineral'] + '\n\n' + t.ship_list[shipname]['items'] + '\n'
     # Moon material

@@ -111,6 +111,12 @@ component_T1_list = {
 }
 
 t2_ship_list = {
+				"Marshal":{
+					"componentList":"Plasma Thruster 225 \nGravimetric Sensor Cluster 900 \nPhoton Microprocessor 6300 \nTungsten Carbide Armor Plate 18750 \nFusion Reactor Unit 150 \nTesseract Capacitor Unit 2250 \nSustained Shield Emitter 1634",
+					"mineral":"Tritanium 11000000 \nPyerite 2500000 \nMexallon 680000 \nIsogen 180000 \nNocxium 40000 \nZydrine 19000 \nMegacyte 7300 \nMorphite 1500",
+					"Planetary material": "Construction Blocks 450",
+					"items":"Capital Jump Drive 3"
+				},
                 "Ishtar":
                 {
                     "componentList":"Ion Thruster 75\nMagnetometric Sensor Cluster 398\nPhoton Microprocessor 1350\nCrystalline Carbonide Armor Plate 5625\nFusion Reactor Unit 38\nOscillator Capacitor Unit 450\nPulse Shield Emitter 450",
@@ -156,11 +162,61 @@ t2_ship_list = {
 				"Huginn":
 				{
 					"componentList": "Plasma Thruster 58\nLadar Sensor Cluster 476\nNanomechanical Microprocessor 1728\nFernite Carbide Composite Armor Plate 3600\nNuclear Reactor Unit 29\nElectrolytic Capacitor Unit 360\nDeflection Shield Emitter 288",
-					"Planetary material": "Morphite 144",
-					"mineral":"Construction Blocks 72",
+					"mineral": "Morphite 144",
+					"Planetary material":"Construction Blocks 72",
 					"items":"Bellicose 1\nR.A.M.- Starship Tech 18"
-				}
-			}
+				},
+				"Cerberus":
+				{
+					"componentList":"Magpulse Thruster 75\nGravimetric Sensor Cluster 398\nQuantum Microprocessor 1350\nTitanium Diborite Armor Plate 5625\nGraviton Reactor Unit 38\nScalar Capacitor Unit 450\nSustained Shield Emitter 450",
+					"mineral":"Morphite 150",
+					"Planetary material":"Construction Blocks 150",
+					"items":"Caracal 1\nR.A.M.- Starship Tech 18"
+				},
+				"Scimitar":
+				{
+					"componentList":"Plasma Thruster 75\nLadar Sensor Cluster 263\nNanomechanical Microprocessor 1800\nFernite Carbide Composite Armor Plate 2250\nNuclear Reactor Unit 23\nElectrolytic Capacitor Unit 750\nDeflection Shield Emitter 150",
+					"Planetary material":"Construction Blocks 75",
+					"mineral":"Morphite 90",
+					"items":"Scythe 1\nR.A.M.- Starship Tech 12",
+				},
+				"Retribution":
+				{
+					"componentList":"Fusion Thruster 23\nRadar Sensor Cluster 30\nNanoelectrical Microprocessor 135\nTungsten Carbide Armor Plate 900\nAntimatter Reactor Unit 8\nTesseract Capacitor Unit 90\nLinear Shield Emitter 30",
+					"Planetary material":"Construction Blocks 38",
+					"mineral":"Morphite 45",
+					"items":"Punisher 1\nR.A.M.- Starship Tech 6",
+
+				},
+				"Sabre":
+				{
+					"componentList":"Plasma Thruster 60\nLadar Sensor Cluster 75\nNanomechanical Microprocessor 360\nFernite Carbide Composite Armor Plate 1500\nNuclear Reactor Unit 15\nElectrolytic Capacitor Unit 150\nDeflection Shield Emitter 38",
+					"mineral":"Morphite 15",
+					"Planetary material":"Construction Blocks 23",
+					"items":"R.A.M.- Starship Tech 9\nThrasher 1",
+				},
+				"Arazu":{
+					"componentList":"Ion Thruster 57\nMagnetometric Sensor Cluster 495\nPhoton Microprocessor 1800\nCrystalline Carbonide Armor Plate 3750\nFusion Reactor Unit 30\nOscillator Capacitor Unit 375\nPulse Shield Emitter 300",
+					"Planetary material":"Construction Blocks 75",
+					"mineral":"Morphite 150",
+					"items":"Celestis 1\nR.A.M.- Starship Tech 18",
+				},
+				"Guardian":{
+					"componentList":"Fusion Thruster 75\nRadar Sensor Cluster 263\nNanoelectrical Microprocessor 1800\nTungsten Carbide Armor Plate 2250\nAntimatter Reactor Unit 23\nTesseract Capacitor Unit 750\nLinear Shield Emitter 150",
+					"mineral":"Morphite 90",
+					"Planetary material":"Construction Blocks 75",
+					"items":"Augoror 1\nR.A.M.- Starship Tech 12",
+				},
+				"Basilisk":
+				{
+					"componentList":"Magpulse Thruster 75\nGravimetric Sensor Cluster 263\nQuantum Microprocessor 1800\nTitanium Diborite Armor Plate 2250\nGraviton Reactor Unit 23\nScalar Capacitor Unit 750\nSustained Shield Emitter 150",
+					"mineral":"Morphite 90",
+					"Planetary material":"Construction Blocks 75",
+					"items":"Osprey 1\nR.A.M.- Starship Tech 12",
+				},
+
+
+}
 
 battle_ship_list = {
 				"Apocalypse":
@@ -171,6 +227,13 @@ battle_ship_list = {
 					"items": ""
 				},
 				"Raven":
+				{
+					"componentList":"Auto-Integrity Preservation Seal 180\nCore Temperature Regulator 1\nLife Support Backup Unit 90",
+					"mineral": "Tritanium 7200000\nPyerite 3600000\nMexallon 540000\nIsogen 360000\nNocxium 10800\nZydrine 5400\nMegacyte 2700",
+					"Planetary material": "",
+					"items": ""
+				},
+				"Tempest":
 				{
 					"componentList":"Auto-Integrity Preservation Seal 180\nCore Temperature Regulator 1\nLife Support Backup Unit 90",
 					"mineral": "Tritanium 7200000\nPyerite 3600000\nMexallon 540000\nIsogen 360000\nNocxium 10800\nZydrine 5400\nMegacyte 2700",
