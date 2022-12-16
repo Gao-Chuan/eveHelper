@@ -124,6 +124,12 @@ t2_ship_list = {
                     "Planetary material": "Construction Blocks 150",
                     "items":"Vexor 1\nR.A.M.- Starship Tech 18"
                 },
+				"Kronos":{
+					"componentList":"Ion Thruster 357\nMagnetometric Sensor Cluster 820\nPhoton Microprocessor 5700\nCrystalline Carbonide Armor Plate 35625\nFusion Reactor Unit 214\nOscillator Capacitor Unit 2850\nPulse Shield Emitter 3606",
+                    "mineral":"Morphite 927",
+                    "Planetary material":"Construction Blocks 428",
+                    "items":"Megathron 1\nR.A.M.- Starship Tech 29"
+				},
 				"Paladin":
 				{
 					"componentList":"Fusion Thruster 375\nRadar Sensor Cluster 863\nNanoelectrical Microprocessor 6000\nTungsten Carbide Armor Plate 37500\nAntimatter Reactor Unit 225\nTesseract Capacitor Unit 3000\nLinear Shield Emitter 3795",
