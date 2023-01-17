@@ -130,12 +130,25 @@ t2_ship_list = {
                     "Planetary material":"Construction Blocks 428",
                     "items":"Megathron 1\nR.A.M.- Starship Tech 29"
 				},
+				"Sin":{
+					"componentList":"Ion Thruster 357\nMagnetometric Sensor Cluster 820\nPhoton Microprocessor 5700\nCrystalline Carbonide Armor Plate 35625\nFusion Reactor Unit 214\nOscillator Capacitor Unit 2850\nPulse Shield Emitter 3606",
+                    "mineral":"Morphite 927",
+                    "Planetary material":"Construction Blocks 428",
+                    "items":"Dominix 1\nR.A.M.- Starship Tech 29"
+				},
 				"Paladin":
 				{
-					"componentList":"Fusion Thruster 375\nRadar Sensor Cluster 863\nNanoelectrical Microprocessor 6000\nTungsten Carbide Armor Plate 37500\nAntimatter Reactor Unit 225\nTesseract Capacitor Unit 3000\nLinear Shield Emitter 3795",
+					"componentList":"Fusion Thruster 357\nRadar Sensor Cluster 820\nNanoelectrical Microprocessor 5700\nTungsten Carbide Armor Plate 35625\nAntimatter Reactor Unit 214\nTesseract Capacitor Unit 2850\nLinear Shield Emitter 3606",
 					"mineral":"Morphite 975",
                     "Planetary material": "Construction Blocks 450",
                     "items":"Apocalypse 1\nR.A.M.- Starship Tech 30"
+				},
+				"Redeemer":
+				{
+					"componentList":"Fusion Thruster 214\nRadar Sensor Cluster 855\nNanoelectrical Microprocessor 5985\nTungsten Carbide Armor Plate 17813\nAntimatter Reactor Unit 143\nTesseract Capacitor Unit 2138\nLinear Shield Emitter 1553",
+					"mineral":"Morphite 855",
+					"Planetary material":"Construction Blocks 428",
+					"items":"Armageddon 1\nR.A.M.- Starship Tech 29",
 				},
 				"Golem":
 				{
@@ -143,6 +156,13 @@ t2_ship_list = {
 					"mineral":"Morphite 927",
 					"Planetary material": "Construction Blocks 428",
                     "items":"Raven 1\nR.A.M.- Starship Tech 30"
+				},
+				"Widow":
+				{
+					"componentList":"Magpulse Thruster 214\nGravimetric Sensor Cluster 855\nQuantum Microprocessor 5985\nTitanium Diborite Armor Plate 17813\nGraviton Reactor Unit 143\nScalar Capacitor Unit 2138\nSustained Shield Emitter 1553",
+					"mineral":"Morphite 855",
+					"Planetary material":"Construction Blocks 428",
+					"items":"Scorpion 1\nR.A.M.- Starship Tech 29",
 				},
 				"Prospect":
 				{
@@ -157,6 +177,13 @@ t2_ship_list = {
 					"Planetary material": "Construction Blocks 450",
 					"mineral":"Morphite 975",
 					"items":"Tempest 1\nR.A.M.- Starship Tech 30"
+				},
+				"Panther":
+				{
+					"componentList": "Plasma Thruster 214\nLadar Sensor Cluster 855\nNanomechanical Microprocessor 5985\nFernite Carbide Composite Armor Plate 17813\nNuclear Reactor Unit 143\nElectrolytic Capacitor Unit 2138\nDeflection Shield Emitter 1553",
+					"Planetary material": "Construction Blocks 428",
+					"mineral":"Morphite 855",
+					"items":"Typhoon  1\nR.A.M.- Starship Tech 29"
 				},
 				"Vagabond":
 				{
